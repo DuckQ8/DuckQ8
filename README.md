@@ -1,16 +1,26 @@
-## Hi there 👋
+Hey 👋
 
-<!--
-**Raising-Canes/Raising-Canes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm **RaisingCanes**, a computer engineer with strong interests in **Artificial Intelligence**, **Cybersecurity**, and **Robotics**.
 
-Here are some ideas to get you started:
+I focus on understanding systems deeply — how software meets hardware, how things fail, and how to make them smarter and more secure.  
+Most of what I build is driven by curiosity and hands-on experimentation.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Everything here is built to learn, not just to show.
+
+---
+
+### Tools & Tech
+- Python, C/C++
+- AI & ML fundamentals
+- Cybersecurity concepts
+- Robotics basics (hardware + software)
+- Linux, Networking
+
+---
+
+### A Bit About Me
+- I Love Ducks
+- I enjoy technical challenges more than tutorials
+- Interested in AI security & intelligent systems
+- I like breaking and building systems to understand them better
+- u can ask me anything and i like to learn from others
