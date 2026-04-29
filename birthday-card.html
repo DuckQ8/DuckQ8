@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>Happy Birthday Manooriii</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Dancing+Script:wght@500;700&family=Parisienne&display=swap" rel="stylesheet">
+<style>
+  @page {
+    size: A4;
+    margin: 0;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html, body {
+    width: 210mm;
+    height: 297mm;
+  }
+
+  body {
+    background: #ffeef5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  .card {
+    width: 210mm;
+    height: 297mm;
+    background:
+      radial-gradient(circle at 20% 15%, rgba(255, 192, 213, 0.55), transparent 35%),
+      radial-gradient(circle at 80% 85%, rgba(255, 182, 205, 0.55), transparent 35%),
+      linear-gradient(135deg, #fff5f8 0%, #ffe4ef 50%, #ffd1e0 100%);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    page-break-after: always;
+  }
+
+  .frame {
+    position: absolute;
+    top: 18mm;
+    left: 18mm;
+    right: 18mm;
+    bottom: 18mm;
+    border: 2px solid #d36a8b;
+    border-radius: 12mm;
+    pointer-events: none;
+  }
+
+  .frame::before {
+    content: "";
+    position: absolute;
+    top: 4mm;
+    left: 4mm;
+    right: 4mm;
+    bottom: 4mm;
+    border: 1px solid #e89bb3;
+    border-radius: 9mm;
+  }
+
+  .hearts {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    color: #e8537a;
+    opacity: 0.55;
+  }
+
+  .hearts span {
+    position: absolute;
+    font-size: 28px;
+  }
+
+  .hearts span:nth-child(1)  { top: 8%;  left: 12%; font-size: 34px; }
+  .hearts span:nth-child(2)  { top: 14%; right: 14%; font-size: 22px; }
+  .hearts span:nth-child(3)  { top: 32%; left: 8%;  font-size: 20px; }
+  .hearts span:nth-child(4)  { top: 28%; right: 10%; font-size: 30px; }
+  .hearts span:nth-child(5)  { bottom: 22%; left: 14%; font-size: 26px; }
+  .hearts span:nth-child(6)  { bottom: 10%; right: 16%; font-size: 32px; }
+  .hearts span:nth-child(7)  { bottom: 28%; right: 8%;  font-size: 18px; }
+  .hearts span:nth-child(8)  { bottom: 8%;  left: 22%; font-size: 22px; }
+
+  .content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 22mm;
+    padding: 0 20mm;
+  }
+
+  .happy-birthday {
+    font-family: 'Great Vibes', cursive;
+    font-size: 110pt;
+    color: #c9446b;
+    line-height: 1.05;
+    text-shadow: 2px 3px 0 rgba(255, 255, 255, 0.7);
+  }
+
+  .name {
+    font-family: 'Parisienne', cursive;
+    font-size: 72pt;
+    color: #d36a8b;
+    line-height: 1.1;
+  }
+
+  .heart-pink {
+    color: #ff4d88;
+    -webkit-text-fill-color: #ff4d88;
+  }
+
+  .love {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 56pt;
+    color: #b53d62;
+    line-height: 1.1;
+  }
+
+  .from {
+    font-family: 'Great Vibes', cursive;
+    font-size: 60pt;
+    color: #c9446b;
+    line-height: 1.1;
+    margin-top: -6mm;
+  }
+
+  .divider {
+    width: 80mm;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #d36a8b, transparent);
+  }
+
+  @media print {
+    body { background: white; }
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="frame"></div>
+    <div class="hearts" aria-hidden="true">
+      <span>♥</span>
+      <span>♡</span>
+      <span>♥</span>
+      <span>♡</span>
+      <span>♥</span>
+      <span>♡</span>
+      <span>♥</span>
+      <span>♡</span>
+    </div>
+
+    <div class="content">
+      <div>
+        <div class="happy-birthday">Happy Birthday</div>
+        <div class="name">manoooriii <span class="heart-pink">🩷</span></div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div>
+        <div class="love">Love you</div>
+        <div class="from">3faiz</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
