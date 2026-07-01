@@ -1,6 +1,6 @@
 Hey 👋
 
-I'm **RaisingCanes**, a computer engineer with strong interests in **Artificial Intelligence**, **Cybersecurity**, and **Robotics**.
+I'm **DuckQ8**, a computer engineer with strong interests in **Artificial Intelligence**, **Cybersecurity**, and **Robotics**.
 
 I focus on understanding systems deeply — how software meets hardware, how things fail, and how to make them smarter and more secure.  
 Most of what I build is driven by curiosity and hands-on experimentation.
